@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F1FA16062DE20A8400D2FB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1FA15F02DE20A8200D2FB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1FA15F72DE20A8200D2FB88;
+			remoteInfo = WFSUI;
+		};
+		F1FA16102DE20A8400D2FB88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1FA15F02DE20A8200D2FB88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1FA15F72DE20A8200D2FB88;
+			remoteInfo = WFSUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1FA15F82DE20A8200D2FB88 /* WFSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FA16052DE20A8400D2FB88 /* WFSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FA160F2DE20A8400D2FB88 /* WFSUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFSUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F1FA15FA2DE20A8200D2FB88 /* WFSUI */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WFSUI;
+			sourceTree = "<group>";
+		};
+		F1FA16082DE20A8400D2FB88 /* WFSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WFSUITests;
+			sourceTree = "<group>";
+		};
+		F1FA16122DE20A8400D2FB88 /* WFSUIUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WFSUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1FA15F52DE20A8200D2FB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FA16022DE20A8400D2FB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FA160C2DE20A8400D2FB88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1FA15EF2DE20A8200D2FB88 = {
+			isa = PBXGroup;
+			children = (
+				F1FA15FA2DE20A8200D2FB88 /* WFSUI */,
+				F1FA16082DE20A8400D2FB88 /* WFSUITests */,
+				F1FA16122DE20A8400D2FB88 /* WFSUIUITests */,
+				F1FA15F92DE20A8200D2FB88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FA15F92DE20A8200D2FB88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FA15F82DE20A8200D2FB88 /* WFSUI.app */,
+				F1FA16052DE20A8400D2FB88 /* WFSUITests.xctest */,
+				F1FA160F2DE20A8400D2FB88 /* WFSUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1FA15F72DE20A8200D2FB88 /* WFSUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FA16192DE20A8400D2FB88 /* Build configuration list for PBXNativeTarget "WFSUI" */;
+			buildPhases = (
+				F1FA15F42DE20A8200D2FB88 /* Sources */,
+				F1FA15F52DE20A8200D2FB88 /* Frameworks */,
+				F1FA15F62DE20A8200D2FB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F1FA15FA2DE20A8200D2FB88 /* WFSUI */,
+			);
+			name = WFSUI;
+			packageProductDependencies = (
+			);
+			productName = WFSUI;
+			productReference = F1FA15F82DE20A8200D2FB88 /* WFSUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1FA16042DE20A8400D2FB88 /* WFSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FA161C2DE20A8400D2FB88 /* Build configuration list for PBXNativeTarget "WFSUITests" */;
+			buildPhases = (
+				F1FA16012DE20A8400D2FB88 /* Sources */,
+				F1FA16022DE20A8400D2FB88 /* Frameworks */,
+				F1FA16032DE20A8400D2FB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1FA16072DE20A8400D2FB88 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F1FA16082DE20A8400D2FB88 /* WFSUITests */,
+			);
+			name = WFSUITests;
+			packageProductDependencies = (
+			);
+			productName = WFSUITests;
+			productReference = F1FA16052DE20A8400D2FB88 /* WFSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1FA160E2DE20A8400D2FB88 /* WFSUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FA161F2DE20A8400D2FB88 /* Build configuration list for PBXNativeTarget "WFSUIUITests" */;
+			buildPhases = (
+				F1FA160B2DE20A8400D2FB88 /* Sources */,
+				F1FA160C2DE20A8400D2FB88 /* Frameworks */,
+				F1FA160D2DE20A8400D2FB88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1FA16112DE20A8400D2FB88 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F1FA16122DE20A8400D2FB88 /* WFSUIUITests */,
+			);
+			name = WFSUIUITests;
+			packageProductDependencies = (
+			);
+			productName = WFSUIUITests;
+			productReference = F1FA160F2DE20A8400D2FB88 /* WFSUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FA15F02DE20A8200D2FB88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					F1FA15F72DE20A8200D2FB88 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					F1FA16042DE20A8400D2FB88 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F1FA15F72DE20A8200D2FB88;
+					};
+					F1FA160E2DE20A8400D2FB88 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F1FA15F72DE20A8200D2FB88;
+					};
+				};
+			};
+			buildConfigurationList = F1FA15F32DE20A8200D2FB88 /* Build configuration list for PBXProject "WFSUI" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1FA15EF2DE20A8200D2FB88;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F1FA15F92DE20A8200D2FB88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1FA15F72DE20A8200D2FB88 /* WFSUI */,
+				F1FA16042DE20A8400D2FB88 /* WFSUITests */,
+				F1FA160E2DE20A8400D2FB88 /* WFSUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1FA15F62DE20A8200D2FB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FA16032DE20A8400D2FB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FA160D2DE20A8400D2FB88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FA15F42DE20A8200D2FB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FA16012DE20A8400D2FB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FA160B2DE20A8400D2FB88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1FA16072DE20A8400D2FB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1FA15F72DE20A8200D2FB88 /* WFSUI */;
+			targetProxy = F1FA16062DE20A8400D2FB88 /* PBXContainerItemProxy */;
+		};
+		F1FA16112DE20A8400D2FB88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1FA15F72DE20A8200D2FB88 /* WFSUI */;
+			targetProxy = F1FA16102DE20A8400D2FB88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F1FA16172DE20A8400D2FB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1FA16182DE20A8400D2FB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FA161A2DE20A8400D2FB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualmobiletech.wfs.wfsui.WFSUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1FA161B2DE20A8400D2FB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualmobiletech.wfs.wfsui.WFSUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1FA161D2DE20A8400D2FB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualmobiletech.wfs.wfsui.WFSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFSUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WFSUI";
+			};
+			name = Debug;
+		};
+		F1FA161E2DE20A8400D2FB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualmobiletech.wfs.wfsui.WFSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFSUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WFSUI";
+			};
+			name = Release;
+		};
+		F1FA16202DE20A8400D2FB88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualmobiletech.wfs.wfsui.WFSUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WFSUI;
+			};
+			name = Debug;
+		};
+		F1FA16212DE20A8400D2FB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.virtualmobiletech.wfs.wfsui.WFSUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WFSUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1FA15F32DE20A8200D2FB88 /* Build configuration list for PBXProject "WFSUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FA16172DE20A8400D2FB88 /* Debug */,
+				F1FA16182DE20A8400D2FB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FA16192DE20A8400D2FB88 /* Build configuration list for PBXNativeTarget "WFSUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FA161A2DE20A8400D2FB88 /* Debug */,
+				F1FA161B2DE20A8400D2FB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FA161C2DE20A8400D2FB88 /* Build configuration list for PBXNativeTarget "WFSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FA161D2DE20A8400D2FB88 /* Debug */,
+				F1FA161E2DE20A8400D2FB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FA161F2DE20A8400D2FB88 /* Build configuration list for PBXNativeTarget "WFSUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FA16202DE20A8400D2FB88 /* Debug */,
+				F1FA16212DE20A8400D2FB88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FA15F02DE20A8200D2FB88 /* Project object */;
+}
