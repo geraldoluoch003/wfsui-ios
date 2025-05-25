@@ -9,7 +9,7 @@ import SwiftUI
 
 @available(macOS 10.15, *)
 public struct ContentView: View {
-    var body: some View {
+    public var body: some View {
         VStack(spacing: 32) {
             Spacer()
             GradientLoader()
