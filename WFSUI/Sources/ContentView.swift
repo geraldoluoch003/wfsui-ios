@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(macOS 10.15, *)
 public struct ContentView: View {
     public var body: some View {
         VStack(spacing: 32) {
@@ -27,6 +28,7 @@ public struct ContentView: View {
     }
 }
 
+@available(macOS 10.15, *)
 public struct Arc: Shape {
     public var startAngle: Angle
     public var endAngle: Angle
@@ -45,6 +47,7 @@ public struct Arc: Shape {
     }
 }
 
+@available(macOS 10.15, *)
 public struct GradientLoader: View {
     @State private var isAnimating = false
     
