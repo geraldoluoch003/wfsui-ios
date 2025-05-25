@@ -1,0 +1,38 @@
+{
+  "name": "WFSUI",
+  "swiftToolsVersion": "5.9",
+  "swiftLanguageVersions": [
+    "5.9"
+  ],
+  "products": [
+    {
+      "name": "WFSUI",
+      "productType": "library",
+      "targets": [
+        "WFSUI"
+      ]
+    }
+  ],
+  "localDependencies": [],
+  "remoteDependencies": [],
+  "targets": [
+    {
+      "name": "WFSUI",
+      "targetType": "target",
+      "dependencies": [],
+      "sourcesPath": "WFSUI/Sources",
+      "resourcesPath": "WFSUI/Resources"
+    },
+    {
+      "name": "WFSUITests",
+      "targetType": "testTarget",
+      "dependencies": [
+        {
+          "name": "WFSUI",
+          "isTarget": true
+        }
+      ],
+      "sourcesPath": "WFSUITests/Sources"
+    }
+  ]
+} 
