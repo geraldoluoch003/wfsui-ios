@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(macOS 10.15, *)
-struct ContentView: View {
+public struct ContentView: View {
     var body: some View {
         VStack(spacing: 32) {
             Spacer()
@@ -29,12 +29,12 @@ struct ContentView: View {
 }
 
 @available(macOS 10.15, *)
-struct Arc: Shape {
-    var startAngle: Angle
-    var endAngle: Angle
-    var clockwise: Bool
+public struct Arc: Shape {
+    public var startAngle: Angle
+    public var endAngle: Angle
+    public var clockwise: Bool
 
-    func path(in rect: CGRect) -> Path {
+    public func path(in rect: CGRect) -> Path {
         var path = Path()
         let radius = min(rect.width, rect.height) / 2
         let center = CGPoint(x: rect.midX, y: rect.midY)
@@ -48,10 +48,12 @@ struct Arc: Shape {
 }
 
 @available(macOS 10.15, *)
-struct GradientLoader: View {
+public struct GradientLoader: View {
     @State private var isAnimating = false
+    
+    public init() {}
 
-    var body: some View {
+    public var body: some View {
         Arc(
             startAngle: .degrees(-45),
             endAngle: .degrees(315),
