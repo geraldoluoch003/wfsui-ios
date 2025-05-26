@@ -26,9 +26,9 @@ let package = Package(
             name: "WFSUI",
             dependencies: [
             ],
-            path: "Sources",
+            path: "WFSUI/Sources",
             resources: [
-                .process("./Resources")
+                .process("../WFSUI/Resources")
             ],
             plugins: [
             ]
@@ -37,7 +37,8 @@ let package = Package(
             name: "WFSUITests",
             dependencies: [
                 .byName(name: "WFSUI"),
-            ]
+            ],
+            path: "WFSUI/Tests"
         ),
     ],
     swiftLanguageVersions: [.v5]
