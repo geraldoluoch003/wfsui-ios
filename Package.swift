@@ -28,7 +28,7 @@ let package = Package(
             ],
             path: "WFSUI/Sources",
             resources: [
-                .process("../WFSUI/Resources")
+                .process("../Resources")
             ],
             plugins: [
             ]
